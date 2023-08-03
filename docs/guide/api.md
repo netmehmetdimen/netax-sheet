@@ -69,7 +69,7 @@ Applys an array of op to the workbook.
 
 This api is typically used in online collabration to sync data.
 
-See [Collabration demo](https://bitbucket.org/netaxtech-team/netax-sheet/blob/master/stories/Collabration.stories.tsx) for an example usage.
+See [Collabration demo](https://github.com/netmehmetdimen/netax-sheet/blob/master/stories/Collabration.stories.tsx) for an example usage.
 
 | Param | Type | Description |
 | ----- | ----- | ------ |
@@ -629,7 +629,7 @@ Undo previous action.
 
 ---
 
-The usage example [Collabration demo](https://bitbucket.org/netaxtech-team/netax-sheet/blob/master/stories/Collabration.stories.tsx).
+The usage example [Collabration demo](https://github.com/netmehmetdimen/netax-sheet/blob/master/stories/Collabration.stories.tsx).
 
 ---
 

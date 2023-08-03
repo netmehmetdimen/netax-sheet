@@ -4,7 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "repository": "https://bitbucket.org/netaxtech-team/netax-sheet",
+  "repository": "https://github.com/netmehmetdimen/netax-sheet",
   "license": "MIT",
   "scripts": {
     "dev": "npx yarn storybook",
