@@ -177,6 +177,8 @@ const SheetItem: React.FC<Props> = ({ sheet, isDropPlaceholder }) => {
             luckysheet_select_save: draftCtx.luckysheet_select_save,
             luckysheet_selection_range: draftCtx.luckysheet_selection_range,
           };
+          if(draftCtx.currentSheetId !== sheet.id)
+            context.hooks.beforeSheetIndexChange?.(sheet);
           draftCtx.dataVerificationDropDownList = false;
           draftCtx.currentSheetId = sheet.id!;
           draftCtx.zoomRatio = sheet.zoomRatio || 1;

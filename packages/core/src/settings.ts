@@ -120,6 +120,7 @@ export type Hooks = {
     newName: string
   ) => boolean;
   afterUpdateSheetName?: (id: string, oldName: string, newName: string) => void;
+  beforeSheetIndexChange?: (sheet: Sheet) => void;
 };
 
 export type Settings = {
