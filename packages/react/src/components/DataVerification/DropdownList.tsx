@@ -5,7 +5,7 @@ import {
   getSheetIndex,
   mergeBorder,
   setDropcownValue,
-} from "@fortune-sheet/core";
+} from "@netax-sheet/core";
 import React, {
   useCallback,
   useContext,

@@ -6,8 +6,8 @@ import React, {
   useMemo,
 } from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { Sheet, Op, Selection, colors } from "@fortune-sheet/core";
-import { Workbook, WorkbookInstance } from "@fortune-sheet/react";
+import { Sheet, Op, Selection, colors } from "@netax-sheet/core";
+import { Workbook, WorkbookInstance } from "@netax-sheet/react";
 import { v4 as uuidv4 } from "uuid";
 import { hashCode } from "./utils";
 

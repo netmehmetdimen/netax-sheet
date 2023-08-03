@@ -1,5 +1,5 @@
 module.exports = {
-	base: '/fortune-sheet-docs/',
+	base: '/netax-sheet-docs/',
 	locales: {
 		// 键名是该语言所属的子路径
 		// 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -16,10 +16,10 @@ module.exports = {
 		
 	},
 	themeConfig: {
-		domain: 'https://ruilisi.github.io/fortune-sheet-demo/',
+		domain: 'https://ruilisi.github.io/netax-sheet-demo/',
 		author: 'Ruilisi',
 		// 仓库地址
-		repo: 'ruilisi/fortune-sheet',
+		repo: 'ruilisi/netax-sheet',
 		// 允许编辑链接文字
 		editLinks: true,
 		// 仓库的文档目录 
@@ -42,7 +42,7 @@ module.exports = {
 				nav: [
 					{ text: 'Home', link: '/' },
 					{ text: 'Guide', link: '/guide/' },
-					{ text: 'Demo', link: 'https://ruilisi.github.io/fortune-sheet-demo/' },
+					{ text: 'Demo', link: 'https://ruilisi.github.io/netax-sheet-demo/' },
 				],
 				// 侧边栏 
 				sidebar: {
@@ -78,7 +78,7 @@ module.exports = {
 				nav: [
 					{ text: '首页', link: '/zh/' },
 					{ text: '指南', link: '/zh/guide/' },
-					{ text: '演示', link: 'https://ruilisi.github.io/fortune-sheet-demo/' },
+					{ text: '演示', link: 'https://ruilisi.github.io/netax-sheet-demo/' },
 				],
 				// 侧边栏 
 				sidebar: {
@@ -99,7 +99,7 @@ module.exports = {
 	},
 	plugins: {
 		'sitemap': {
-			hostname: 'https://ruilisi.github.io/fortune-sheet-demo/',
+			hostname: 'https://ruilisi.github.io/netax-sheet-demo/',
 			dateFormatter: val => {
 				return new Date().toISOString()
 			}

@@ -1,5 +1,5 @@
 {
-  "name": "@fortune-sheet/react",
+  "name": "@netax-sheet/react",
   "version": "0.19.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -7,13 +7,13 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/ruilisi/fortune-sheet",
+  "repository": "https://bitbucket.org/netaxtech-team/netax-sheet",
   "license": "MIT",
   "scripts": {
     "tsc": "tsc"
   },
   "dependencies": {
-    "@fortune-sheet/core": "^0.19.0",
+    "@netax-sheet/core": "^0.19.0",
     "immer": "^9.0.12",
     "lodash": "^4.17.21"
   },

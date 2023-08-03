@@ -69,7 +69,7 @@ Applys an array of op to the workbook.
 
 This api is typically used in online collabration to sync data.
 
-See [Collabration demo](https://github.com/ruilisi/fortune-sheet/blob/master/stories/Collabration.stories.tsx) for an example usage.
+See [Collabration demo](https://bitbucket.org/netaxtech-team/netax-sheet/blob/master/stories/Collabration.stories.tsx) for an example usage.
 
 | Param | Type | Description |
 | ----- | ----- | ------ |
@@ -125,7 +125,7 @@ Sets the value of a cell.
 
 	- Set the value of cell "B1" in the current worksheet to the formula "=sum(A1)"		`workbookRef.current.setCellValue(0, 1, "=sum(A1)");`
 
-	- Set the value of the cell "C1" in the current worksheet to the formula "=sum(A1:B1)" with a red background, the cell object can be without `v` and `m` values, fortune-sheet will automatically calculate the results based on the formula. If there are `v` and `m` values that are not updated or non-formula results, fortune-sheet will still calculate the prepared results based on the data actually associated with the formula.		`workbookRef.current.setCellValue(0, 2, {f: "=sum(A1:B1)", bg:"#FF0000"})`
+	- Set the value of the cell "C1" in the current worksheet to the formula "=sum(A1:B1)" with a red background, the cell object can be without `v` and `m` values, netax-sheet will automatically calculate the results based on the formula. If there are `v` and `m` values that are not updated or non-formula results, netax-sheet will still calculate the prepared results based on the data actually associated with the formula.		`workbookRef.current.setCellValue(0, 2, {f: "=sum(A1:B1)", bg:"#FF0000"})`
 
 	- Set the "C1" cell again and the new formula can still take effect.
 
@@ -629,7 +629,7 @@ Undo previous action.
 
 ---
 
-The usage example [Collabration demo](https://github.com/ruilisi/fortune-sheet/blob/master/stories/Collabration.stories.tsx).
+The usage example [Collabration demo](https://bitbucket.org/netaxtech-team/netax-sheet/blob/master/stories/Collabration.stories.tsx).
 
 ---
 

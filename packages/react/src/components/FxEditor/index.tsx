@@ -13,7 +13,7 @@ import {
   isShowHidenCR,
   escapeHTMLTag,
   isAllowEdit,
-} from "@fortune-sheet/core";
+} from "@netax-sheet/core";
 import React, {
   useContext,
   useState,

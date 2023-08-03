@@ -31,7 +31,7 @@ import {
   fixRowStyleOverflowInFreeze,
   fixColumnStyleOverflowInFreeze,
   handleKeydownForZoom,
-} from "@fortune-sheet/core";
+} from "@netax-sheet/core";
 import _ from "lodash";
 import WorkbookContext, { SetContextOptions } from "../../context";
 import ColumnHeader from "./ColumnHeader";
@@ -399,7 +399,7 @@ const SheetOverlay: React.FC = () => {
 
   return (
     <div
-      className="fortune-sheet-overlay"
+      className="netax-sheet-overlay"
       ref={containerRef}
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}

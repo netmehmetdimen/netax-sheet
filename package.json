@@ -1,11 +1,10 @@
 {
-  "name": "fortune-sheet",
-  "private": true,
-  "version": "0.1.0",
+  "name": "netax-sheet",
+  "version": "0.1.1",
   "workspaces": [
     "packages/*"
   ],
-  "repository": "https://github.com/ruilisi/fortune-sheet",
+  "repository": "https://bitbucket.org/netaxtech-team/netax-sheet",
   "license": "MIT",
   "scripts": {
     "dev": "npx yarn storybook",
@@ -14,7 +13,7 @@
     "build-storybook": "build-storybook",
     "tsc": "tsc --noEmit",
     "lint": "eslint --cache --ext .js,.jsx,.ts,.tsx,.json ./packages",
-    "postinstall": "lerna run build --scope=@fortune-sheet/formula-parser",
+    "postinstall": "lerna run build --scope=@netax-sheet/formula-parser",
     "publish": "npm publish packages/core --registry 'https://registry.npmjs.org' && npm publish packages/react --registry 'https://registry.npmjs.org'",
     "test": "jest",
     "coverage": "jest --coverage"

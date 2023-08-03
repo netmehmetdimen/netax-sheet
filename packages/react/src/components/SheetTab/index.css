@@ -40,7 +40,7 @@
   /* padding: 6px 10px; */
 }
 
-.fortune-sheettab-container {
+.netax-sheettab-container {
   padding: 0px 0px;
   margin-left: 0px;
   position: relative;
@@ -49,7 +49,7 @@
   display: inline-block;
 }
 
-.fortune-sheettab-container .boundary {
+.netax-sheettab-container .boundary {
   position: absolute;
   top: 0;
   width: 6px;
@@ -58,21 +58,21 @@
   background: rgb(255, 255, 255);
 }
 
-.fortune-sheettab-container .boundary-left {
+.netax-sheettab-container .boundary-left {
   left: 0;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #4445;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #8880);
 }
 
-.fortune-sheettab-container .boundary-right {
+.netax-sheettab-container .boundary-right {
   right: 0;
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
   --tw-gradient-from: #4445;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #8880);
 }
 
-.fortune-sheettab-container .fortune-sheettab-container-c {
+.netax-sheettab-container .netax-sheettab-container-c {
   padding: 0px 0px;
   margin-left: 0px;
   overflow: hidden;
@@ -194,7 +194,7 @@
   color: #222;
 }
 
-.fortune-sheettab-button {
+.netax-sheettab-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,7 +202,7 @@
   width: 29px;
 }
 
-.fortune-sheettab-button:hover {
+.netax-sheettab-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,7 +219,7 @@
   user-select: none;
 }
 
-.fortune-sheettab-scroll {
+.netax-sheettab-scroll {
   display: flex;
   align-items: center;
   padding: 0 5px;
@@ -227,11 +227,11 @@
   cursor: pointer;
 }
 
-.fortune-sheettab-scroll:hover {
+.netax-sheettab-scroll:hover {
   background-color: #e0e0e0;
 }
 
-.fortune-sheettab-placeholder {
+.netax-sheettab-placeholder {
   display: inline-block;
   width: 30px;
   height: 29px;
@@ -269,6 +269,6 @@
   right: 2px;
 }
 
-.fortune-sheet-area-right {
+.netax-sheet-area-right {
   display: flex !important;
 }

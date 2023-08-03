@@ -19,7 +19,7 @@ import {
   insertRowCol,
   locale,
   calcSelectionInfo,
-} from "@fortune-sheet/core";
+} from "@netax-sheet/core";
 import React, {
   useMemo,
   useState,
@@ -582,7 +582,7 @@ const Workbook = React.forwardRef<WorkbookInstance, Settings & AdditionalProps>(
         // deal with multi instance case, only the focused sheet handles the paste
         if (
           cellInput.current === document.activeElement ||
-          document.activeElement?.className === "fortune-sheet-overlay"
+          document.activeElement?.className === "netax-sheet-overlay"
         ) {
           let { clipboardData } = e;
           if (!clipboardData) {

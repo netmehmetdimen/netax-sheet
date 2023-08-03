@@ -9,7 +9,7 @@ import {
   FilterDate,
   FilterColor,
   Context,
-} from "@fortune-sheet/core";
+} from "@netax-sheet/core";
 import React, {
   useCallback,
   useContext,

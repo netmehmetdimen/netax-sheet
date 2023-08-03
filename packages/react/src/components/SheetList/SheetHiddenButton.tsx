@@ -1,4 +1,4 @@
-import { Sheet, api } from "@fortune-sheet/core";
+import { Sheet, api } from "@netax-sheet/core";
 import React, { CSSProperties, useCallback, useContext } from "react";
 import SVGIcon from "../SVGIcon";
 import WorkbookContext from "../../context";
@@ -25,7 +25,7 @@ const SheetHiddenButton: React.FC<Props> = ({ style, sheet }) => {
         e.stopPropagation();
         showSheet();
       }}
-      className="fortune-sheet-hidden-button"
+      className="netax-sheet-hidden-button"
     >
       {sheet?.hide === 1 ? (
         <SVGIcon

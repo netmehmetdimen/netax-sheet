@@ -6,8 +6,8 @@
 
 <div align="center">
 
-[![CircleCI Status](https://circleci.com/gh/ruilisi/fortune-sheet.svg?style=shield)](https://circleci.com/gh/ruilisi/fortune-sheet)
-[![Known Vulnerabilities](https://snyk.io/test/github/ruilisi/fortune-sheet/badge.svg)](https://snyk.io/test/github/ruilisi/fortune-sheet)
+[![CircleCI Status](https://circleci.com/gh/ruilisi/netax-sheet.svg?style=shield)](https://circleci.com/gh/ruilisi/netax-sheet)
+[![Known Vulnerabilities](https://snyk.io/test/github/ruilisi/netax-sheet/badge.svg)](https://snyk.io/test/github/ruilisi/netax-sheet)
 [![Build with father](https://img.shields.io/badge/build%20with-father-028fe4.svg)](https://github.com/umijs/father/)
 [![xiemala](https://img.shields.io/badge/maintained%20by-xiemala-cc00ff.svg)](https://xiemala.com/)
 
@@ -31,7 +31,7 @@ We aim to make FortuneSheet powerful yet easy to maintain.
 
 ## Live demo
 
-Take a look at the live demo at [fortune-sheet-demo](https://ruilisi.github.io/fortune-sheet-demo/)
+Take a look at the live demo at [netax-sheet-demo](https://ruilisi.github.io/netax-sheet-demo/)
 
 <p>
   <img align="center" src="screenshot.png" width="400px" />
@@ -45,7 +45,7 @@ Before stable release of 1.0, input data structure and APIs may change during de
 - Written fully in typescript.
 - You can now use `import` / `require` to use the library.
   ```js
-  import { Workbook } from '@fortune-sheet/react'
+  import { Workbook } from '@netax-sheet/react'
   ```
 - Multiple instance on the same page is supported.
 - Dropped `jQuery` dependency, uses native `React` / `Vue` + `immer` to manage the dom and state.
@@ -97,7 +97,7 @@ Before stable release of 1.0, input data structure and APIs may change during de
 
 ## Documentation
 
-See detailed documentation at [fortune-sheet-doc](https://ruilisi.github.io/fortune-sheet-docs/)
+See detailed documentation at [netax-sheet-doc](https://ruilisi.github.io/netax-sheet-docs/)
 
 ## Get started (react)
 
@@ -107,7 +107,7 @@ See detailed documentation at [fortune-sheet-doc](https://ruilisi.github.io/fort
 <summary>Using npm</summary>
 
 ```shell
-npm install @fortune-sheet/react
+npm install @netax-sheet/react
 ```
 </details>
 
@@ -115,7 +115,7 @@ npm install @fortune-sheet/react
 <summary>Using pnpm</summary>
 
 ```shell
-pnpm install @fortune-sheet/react
+pnpm install @netax-sheet/react
 ```
 </details>
 
@@ -123,7 +123,7 @@ pnpm install @fortune-sheet/react
 <summary>Using yarn</summary>
 
 ```shell
-yarn add @fortune-sheet/react
+yarn add @netax-sheet/react
 ```
 </details>
 
@@ -145,8 +145,8 @@ yarn add @fortune-sheet/react
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Workbook } from "@fortune-sheet/react";
-import "@fortune-sheet/react/dist/index.css"
+import { Workbook } from "@netax-sheet/react";
+import "@netax-sheet/react/dist/index.css"
 
 ReactDOM.render(
   <Workbook data={[{ name: "Sheet1" }]} />,
@@ -173,9 +173,9 @@ The op is useful for database modification and syncing state in online collabrat
 
 A working example with `Express` (backend server) and `MongoDB` (data persistence) is avaiable in `backend-demo` folder.
 
-Run it with `node index.js` and visit [Collabration example](https://ruilisi.github.io/fortune-sheet-demo/?path=/story/collabration--example) (initialize data by visiting http://localhost:8081/init)
+Run it with `node index.js` and visit [Collabration example](https://ruilisi.github.io/netax-sheet-demo/?path=/story/collabration--example) (initialize data by visiting http://localhost:8081/init)
 
-For detailed doc about `Op`, refer to [fortune-sheet-doc](./docs/guide/op.md)
+For detailed doc about `Op`, refer to [netax-sheet-doc](./docs/guide/op.md)
 
 ## Migrating data from Luckysheet
 The overall data structure of FortuneSheet is the same as Luckysheet, with some naming differences:

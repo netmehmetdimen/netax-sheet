@@ -11,7 +11,7 @@ import {
   fixColumnStyleOverflowInFreeze,
   handleColFreezeHandleMouseDown,
   getSheetIndex,
-} from "@fortune-sheet/core";
+} from "@netax-sheet/core";
 import _ from "lodash";
 import React, {
   useContext,

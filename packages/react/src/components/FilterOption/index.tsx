@@ -1,4 +1,4 @@
-import { createFilterOptions, getSheetIndex } from "@fortune-sheet/core";
+import { createFilterOptions, getSheetIndex } from "@netax-sheet/core";
 import _ from "lodash";
 import React, { useCallback, useContext, useEffect } from "react";
 import WorkbookContext from "../../context";
