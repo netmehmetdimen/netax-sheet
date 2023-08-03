@@ -58,6 +58,7 @@ module.exports = {
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
     "@typescript-eslint/no-unused-vars": [2],
+    'prettier/prettier': ['off', { singleQuote: true }],
   },
   overrides: [
     {
